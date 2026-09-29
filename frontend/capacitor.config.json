@@ -1,0 +1,12 @@
+{
+  "appId": "in.drishti.fogsafety",
+  "appName": "DRISHTI",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "http",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}

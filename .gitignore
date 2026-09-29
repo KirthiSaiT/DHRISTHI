@@ -1,0 +1,33 @@
+# dependencies and build output
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# local data and secrets: never publish these
+*.db
+*.db-shm
+*.db-wal
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
+*.jks
+
+# Android build artifacts
+frontend/android/.gradle/
+frontend/android/build/
+frontend/android/app/build/
+frontend/android/local.properties
+frontend/android/capacitor-cordova-android-plugins/build/
+
+# editors / OS / tooling
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.claude/
